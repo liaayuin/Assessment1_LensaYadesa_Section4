@@ -1,0 +1,134 @@
+body {
+  background-color: #f0f0f0; 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  margin-top: 0; 
+  padding: 20px; 
+  background-color: #c2e3d7;
+  text-align: center;
+  margin-bottom: 20px;
+}
+ul {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+}
+ul a {
+  text-decoration: none;
+  color: #008000;
+  padding: 5px;
+}
+
+ul a:hover {
+  background-color: #FFF5EE;
+}
+h2 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+footer {
+  margin-top: 80px;
+  text-align: center;
+  padding: 20px;
+  background-color: #013220;
+  color: #ffffff;
+}
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  
+}
+.product {
+  flex: 1 1 auto; 
+  max-width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  background-color: #ffffff;
+  height: 500px;
+  margin: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.product img {
+  width: 100%; 
+  height: 250px; 
+  object-fit: contain; 
+  border-radius: 4px; 
+  margin: 0 auto;
+  border-radius: auto;
+  overflow: hidden; 
+} 
+.product h2 {
+  text-align: center;
+  color: #333;
+  margin-top: auto; 
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.product p { 
+  margin:0; 
+  font-size: medium;
+  margin-bottom: 20px;
+  
+}
+.product .price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #008000; 
+  margin: 0; 
+  margin-bottom: 20px;
+}
+.product:nth-child(2) {
+  flex-direction: column; 
+}
+.product:nth-child(2) img {
+  width: 100%; 
+  height: 200px; 
+  margin-top: 10px; 
+  border-radius: 15px; 
+  object-fit: contain;
+  margin-bottom: 20px; 
+}
+.product:nth-child(2) h2,
+.product:nth-child(2) p  {
+flex: 0; 
+display: flex;
+flex-direction: column;
+margin: 0; 
+}
+
+
+.product:nth-child(2) h2 {
+  margin-bottom: 5px; 
+}
+
+.product:nth-child(2) p {
+  margin-top: 0; 
+}
+.product:nth-child(2) .price {
+  margin-top: 5px; 
+  font-weight: bold;
+  margin-bottom: auto;
+  
+}
+
